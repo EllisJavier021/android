@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MadLibsActivity">
+
+    <ScrollView
+        android:layout_width="899dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/MadLibs"
+                android:layout_width="346dp"
+                android:layout_height="57dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:text="MADLIBS"
+
+                android:textColor="#000"
+                android:textSize="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="361dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:text="Enter the following words: "
+                android:textAlignment="center"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/MadLibs" />
+
+            <EditText
+                android:id="@+id/word1"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter an adjective"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word2"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter a noun"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word3"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter a place"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word4"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter another adjective"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word5"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter a pronoun"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word6"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter another noun"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word7"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter a person's name"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word8"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter your favorite number"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word9"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter another pronoun"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word10"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter another person's name"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word11"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter another noun"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word12"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter another pronoun"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word13"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter another adjective"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word14"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter ANOTHER pronoun"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word15"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter a ing-verb"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word16"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter ...another pronoun"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word17"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter a celebrity's name"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word18"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter a female's name"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word19"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Enter another adjective"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/word20"
+                android:layout_width="350dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Finally, enter your favorite place"
+                android:inputType="textPersonName"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:background="#3F51B5"
+                android:onClick="MadLibs"
+                android:text="PLAY"
+                android:textColor="#FFFEFE"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
